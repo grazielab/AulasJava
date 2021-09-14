@@ -23,6 +23,5 @@ public class exercicioIdade {
             System.out.println("Cliente: "+ nome +" "+ sobrenome);
             System.out.println("Idade: " + idade);
         }
-
     }
 }
