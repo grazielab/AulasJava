@@ -9,7 +9,7 @@ public class exercicio_while {
         boolean invalido = true;
 
         System.out.println(" Bem-vindo a área de cadastros! \n");
-        System.out.println("Selecione a opção desejada \n");
+        System.out.println(" Selecione a opção desejada \n");
 
         System.out.println("\t 1 - Cadastrar Cliente");
         System.out.println("\t 2 - Listar Clientes");
@@ -82,7 +82,7 @@ public class exercicio_while {
                 break;
 
             case 2:
-                System.out.println(" ---- Lista de Clientes indisponivel ----");
+                System.out.println(" ---- Lista de Clientes Indisponivel ----");
                 break;
 
             case 3:
