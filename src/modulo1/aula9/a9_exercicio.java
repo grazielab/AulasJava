@@ -22,7 +22,6 @@ public class a9_exercicio {
         //divisão
         double r4 = div(n1, n2);
 
-
         System.out.println("A soma entre " + n1 + " e " + n2 + " é = " + r1);
         System.out.println("A subtração entre " + n1 + " e " + n2 + " é = " + r2);
         System.out.println("A multiplicação entre " + n1 + " e " + n2 + " é = " + r3);
