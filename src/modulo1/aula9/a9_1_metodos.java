@@ -1,7 +1,3 @@
-//Dia 2021-09-21
-// Modulo 2 - Aula 9 - Procedimentos, Funções e Métodos
-//SRP - Single-Responsability Principle - Principio da responsabilidade única
-
 package modulo1.aula9;
 
 import java.util.Scanner;

@@ -1,5 +1,5 @@
 
-package modulo1;
+package modulo1.aula10;
 
 import java.util.Scanner;
 
