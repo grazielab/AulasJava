@@ -6,15 +6,19 @@ public class PrincipalBanco {
 
     CalculadoraTaxas c = new CalculadoraTaxas();
     boolean continua = false;
-    do {
 
-      System.out.println("Escolha uma operação");
+    System.out.println("Bem-vindos a Calculadora de Taxas!! \n");
+
+    do {
+      System.out.println("Escolha uma operação: \n ");
       System.out.println("1 - Transferencia");
       System.out.println("2 - Saque");
-      System.out.println("3 - Sair");
 
       int opcao = Integer.parseInt(sc.nextLine());
-
+      if(opcao < 1 || opcao > 2){
+        System.out.println("Opção inválida. Digite novamente! ");
+      }
+      
       switch (opcao) {
 
         case 1:
@@ -31,17 +35,20 @@ public class PrincipalBanco {
           double taxaS = c.taxaSaque(saque);
           System.out.printf("A taxa de saque foi de R$ %.2f \n", taxaS);
           break;
-
-        case 3:
-          System.out.println("Saindo ...");
-          break;
-
       }
 
-      System.out.println("Deseja voltar para o menu principal?");
+      System.out.println("Deseja voltar para o menu principal? (S/N)");
       char resposta = sc.nextLine().toUpperCase().charAt(0);
       if (resposta == 'S') {
         continua = true;
+      }
+      else if (resposta != 'S' && resposta != 'N' ){
+        System.out.println("Resposta inválida! Tente novamente. \n");
+        continua = true;
+      }
+      else{
+        System.out.println("Obrigada por utilizar nossa calculadora. Volte sempre! ");
+        continua = false;
       }
     } while (continua);
   }
