@@ -1,5 +1,6 @@
-package aula13;
-
 public class Principal {
-    // teste
+    public static void main(String[] args) {
+        
+    }
+
 }
